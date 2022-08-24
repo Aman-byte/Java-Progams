@@ -1,4 +1,4 @@
-public class Main {
+public class SimpleInterest {
     public static void main(String[] args)
     {
         int principal = 1000;
