@@ -1,4 +1,4 @@
-public class Main
+public class directCalcOfNums
 {
 
  public static void main(String[] args) {
