@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class sumofnnaturalnos {
+    public static void main(String[] args)
+    {
+            Scanner scn = new Scanner(System.in);
+            int n = scn.nextInt();
+            int sum = 0;
+            sum = n*(1 +n)/2; //n(n+1)/2 formula used here
+            System.out.println("sum is" +sum);       
+    }
+}
