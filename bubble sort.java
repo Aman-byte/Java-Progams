@@ -1,7 +1,7 @@
 import java.util.Scanner;
-class BubbleSort {
+class BubbleSort { //Ascending order
 	public static void main(String []args) {
-		int n, c, d, swap;
+		int n, c, d, swap; //n is number, c is counter, d is a variable
 		Scanner in = new Scanner(System.in);
 		System.out.println("Input number of integers to sort");
 		n = in.nextInt();
@@ -10,7 +10,7 @@ class BubbleSort {
 		for (c = 0; c < n; c++) 
 		      array[c] = in.nextInt();
 		for (c = 0; c < ( n - 1 ); c++) {
-			for (d = 0; d < n - c - 1; d++) {
+			for (d = 0; d < n - c - 1; d++) { //because counter number of elements are already in correct position
 				if (array[d] > array[d+1]) 
 				/* For descending order use < */ {
 					swap       = array[d];
